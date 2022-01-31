@@ -33,7 +33,7 @@ func main() {
 	chain := rhythm(hits, steps-hits)
 
 	if chain != nil {
-		chain = chain.Move(-shift)
+		chain = chain.Move(shift)
 	}
 
 	os.Stdout.WriteString("[")
