@@ -32,11 +32,14 @@ func main() {
 
 	chain := rhythm(hits, steps-hits)
 
+	os.Stdout.WriteString("[")
+
 	if chain != nil {
 		chain = chain.Move(shift)
+	} else {
+		os.Stdout.WriteString(" ")
 	}
 
-	os.Stdout.WriteString("[")
 	chain.Do(func(value interface{}) {
 		if value.(bool) {
 			os.Stdout.WriteString("x ")
@@ -44,6 +47,7 @@ func main() {
 			os.Stdout.WriteString(". ")
 		}
 	})
+
 	os.Stdout.WriteString("\b]\n")
 
 }
