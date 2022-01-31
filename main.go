@@ -30,13 +30,13 @@ func main() {
 		os.Exit(1)
 	}
 
-	pattern := rhythm(hits, steps-hits)
+	chain := rhythm(hits, steps-hits)
 
-	if pattern != nil {
-		pattern = pattern.Move(-shift)
+	if chain != nil {
+		chain = chain.Move(-shift)
 	}
 
-	pattern.Do(func(value interface{}) {
+	chain.Do(func(value interface{}) {
 		if value.(bool) {
 			os.Stdout.WriteString("x")
 		} else {
