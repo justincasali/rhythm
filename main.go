@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 	"strconv"
 )
@@ -9,22 +8,26 @@ import (
 func main() {
 
 	if len(os.Args) != 4 {
-		panic("invalid number of arguments")
+		os.Stderr.WriteString("invalid number of arguments\n")
+		os.Exit(1)
 	}
 
 	hits, err := strconv.Atoi(os.Args[1])
 	if err != nil || hits < 0 {
-		panic("invalid hits")
+		os.Stderr.WriteString("invalid hits\n")
+		os.Exit(1)
 	}
 
 	steps, err := strconv.Atoi(os.Args[2])
 	if err != nil || steps < 0 || steps < hits {
-		panic("invalid steps")
+		os.Stderr.WriteString("invalid steps\n")
+		os.Exit(1)
 	}
 
 	shift, err := strconv.Atoi(os.Args[3])
 	if err != nil || shift < 0 || shift > steps {
-		panic("invalid shift")
+		os.Stderr.WriteString("invalid shift\n")
+		os.Exit(1)
 	}
 
 	pattern := rhythm(hits, steps-hits)
@@ -35,11 +38,11 @@ func main() {
 
 	pattern.Do(func(value interface{}) {
 		if value.(bool) {
-			fmt.Print("x")
+			os.Stdout.WriteString("x")
 		} else {
-			fmt.Print(".")
+			os.Stdout.WriteString(".")
 		}
 	})
-	fmt.Println()
+	os.Stdout.WriteString("\n")
 
 }
