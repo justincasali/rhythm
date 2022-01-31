@@ -12,9 +12,9 @@ rhythm [hits] [steps] [shift]
 
 ## Example
 ```
-rhythm 17 24 3
+rhythm 7 16 14
 ```
 
 ```
-[x . x x . x x x . x x . x x x . x x . x x x . x]
+[x . x . . x . x . x . . x . x .]
 ```
