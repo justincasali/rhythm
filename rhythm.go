@@ -37,9 +37,9 @@ func recurse(front, back *ring.Ring) *ring.Ring {
 			merged = back
 		}
 
-		for m := merged; true; m = m.Next() {
+		merged.Do(func(value interface{}) {
 
-			linked := m.Value.(*ring.Ring)
+			linked := value.(*ring.Ring)
 
 			if builder != nil {
 				builder = builder.Prev().Link(linked)
@@ -47,11 +47,7 @@ func recurse(front, back *ring.Ring) *ring.Ring {
 				builder = linked
 			}
 
-			if m == merged.Prev() {
-				break
-			}
-
-		}
+		})
 
 		return builder
 
