@@ -22,12 +22,16 @@ func main() {
 		panic("invalid steps")
 	}
 
-	phase, err := strconv.Atoi(os.Args[3])
-	if err != nil {
-		panic("invalid phase")
+	shift, err := strconv.Atoi(os.Args[3])
+	if err != nil || shift < 0 || shift > steps {
+		panic("invalid shift")
 	}
 
-	pattern := rhythm(hits, steps-hits).Move(phase)
+	pattern := rhythm(hits, steps-hits)
+
+	if pattern != nil {
+		pattern = pattern.Move(-shift)
+	}
 
 	pattern.Do(func(value interface{}) {
 		if value.(bool) {
