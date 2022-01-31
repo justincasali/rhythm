@@ -12,14 +12,14 @@ func main() {
 		os.Exit(1)
 	}
 
-	hits, err := strconv.Atoi(os.Args[1])
-	if err != nil || hits < 0 {
-		os.Stderr.WriteString("invalid hits\n")
+	beats, err := strconv.Atoi(os.Args[1])
+	if err != nil || beats < 0 {
+		os.Stderr.WriteString("invalid beats\n")
 		os.Exit(1)
 	}
 
 	steps, err := strconv.Atoi(os.Args[2])
-	if err != nil || steps < 0 || steps < hits {
+	if err != nil || steps < 0 || steps < beats {
 		os.Stderr.WriteString("invalid steps\n")
 		os.Exit(1)
 	}
@@ -30,7 +30,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	chain := rhythm(hits, steps-hits)
+	chain := rhythm(beats, steps-beats)
 
 	os.Stdout.WriteString("[")
 

@@ -3,10 +3,10 @@
 
 ## Usage
 ```
-rhythm [hits] [steps] [shift]
+rhythm [beats] [steps] [shift]
 ```
 
-- `hits` -- number of hits in output sequence
+- `beats` -- number of beats in output sequence
 - `steps` -- number of steps in output sequence
 - `shift` -- degree of shift in output sequence
 
