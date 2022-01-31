@@ -8,7 +8,7 @@ rhythm [hits] [steps] [shift]
 
 - `hits` -- number of hits in output sequence
 - `steps` -- number of steps in output sequence
-- `shift` -- degree of clockwise shift in output sequence
+- `shift` -- degree of forward shift in output sequence
 
 ## Example
 ```
