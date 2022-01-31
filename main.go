@@ -36,13 +36,14 @@ func main() {
 		chain = chain.Move(-shift)
 	}
 
+	os.Stdout.WriteString("[")
 	chain.Do(func(value interface{}) {
 		if value.(bool) {
-			os.Stdout.WriteString("x")
+			os.Stdout.WriteString("x ")
 		} else {
-			os.Stdout.WriteString(".")
+			os.Stdout.WriteString(". ")
 		}
 	})
-	os.Stdout.WriteString("\n")
+	os.Stdout.WriteString("\b]\n")
 
 }
