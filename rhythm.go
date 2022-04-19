@@ -37,7 +37,7 @@ func recurse(front, back *ring.Ring) *ring.Ring {
 			merged = back
 		}
 
-		merged.Do(func(value interface{}) {
+		merged.Do(func(value any) {
 
 			linked := value.(*ring.Ring)
 

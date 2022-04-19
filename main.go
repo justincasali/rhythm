@@ -40,7 +40,7 @@ func main() {
 		os.Stdout.WriteString(" ")
 	}
 
-	chain.Do(func(value interface{}) {
+	chain.Do(func(value any) {
 		if value.(bool) {
 			os.Stdout.WriteString("x ")
 		} else {
