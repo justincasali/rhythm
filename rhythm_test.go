@@ -2,6 +2,7 @@ package main
 
 import (
 	"container/ring"
+	"fmt"
 	"testing"
 )
 
@@ -161,6 +162,25 @@ func TestAllBeats(t *testing.T) {
 				t.Errorf("E(%d,%d): index %d is false, want all true", n, n, i)
 			}
 		}
+	}
+}
+
+// BenchmarkRhythm measures performance at various sizes.
+func BenchmarkRhythm(b *testing.B) {
+	cases := [][2]int{
+		{3, 8},
+		{5, 16},
+		{13, 100},
+		{100, 1000},
+		{1000, 10000},
+	}
+	for _, c := range cases {
+		beats, steps := c[0], c[1]
+		b.Run(fmt.Sprintf("E(%d,%d)", beats, steps), func(b *testing.B) {
+			for i := 0; i < b.N; i++ {
+				rhythm(beats, steps-beats)
+			}
+		})
 	}
 }
 
