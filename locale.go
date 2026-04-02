@@ -41,5 +41,5 @@ func getMessages() messages {
 	if m, ok := locales[code]; ok {
 		return m
 	}
-	return locales["en_US"]
+	return locales["en_GB"]
 }

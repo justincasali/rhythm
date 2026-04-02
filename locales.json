@@ -1,45 +1,59 @@
 {
-  "en_US": {
+  "bg_BG": {
+    "help":         "Употреба: rhythm <удари> <стъпки> <отместване>\n  удари       брой удари за разпределяне (≤ стъпки)\n  стъпки      общ брой стъпки в модела\n  отместване  отместване на въртенето (0 ≤ отместване ≤ стъпки)\n",
+    "invalidArgs":  "невалиден брой аргументи\n",
+    "invalidBeats": "невалидни удари\n",
+    "invalidSteps": "невалидни стъпки\n",
+    "invalidShift": "невалидно отместване\n"
+  },
+  "hr_HR": {
+    "help":         "Upotreba: rhythm <otkucaji> <koraci> <pomak>\n  otkucaji  broj otkucaja za raspoređivanje (≤ koraci)\n  koraci    ukupan broj koraka u uzorku\n  pomak     pomak rotacije (0 ≤ pomak ≤ koraci)\n",
+    "invalidArgs":  "nevažeći broj argumenata\n",
+    "invalidBeats": "nevažeći otkucaji\n",
+    "invalidSteps": "nevažeći koraci\n",
+    "invalidShift": "nevažeći pomak\n"
+  },
+  "cs_CZ": {
+    "help":         "Použití: rhythm <doby> <kroky> <posun>\n  doby   počet dob k rozložení (≤ kroky)\n  kroky  celkový počet kroků ve vzoru\n  posun  posun rotace (0 ≤ posun ≤ kroky)\n",
+    "invalidArgs":  "neplatný počet argumentů\n",
+    "invalidBeats": "neplatné doby\n",
+    "invalidSteps": "neplatné kroky\n",
+    "invalidShift": "neplatný posun\n"
+  },
+  "da_DK": {
+    "help":         "Brug: rhythm <slag> <trin> <forskydning>\n  slag       antal slag at fordele (≤ trin)\n  trin       samlet antal trin i mønsteret\n  forskydning rotationsforskydning (0 ≤ forskydning ≤ trin)\n",
+    "invalidArgs":  "ugyldigt antal argumenter\n",
+    "invalidBeats": "ugyldige slag\n",
+    "invalidSteps": "ugyldige trin\n",
+    "invalidShift": "ugyldig forskydning\n"
+  },
+  "nl_NL": {
+    "help":         "Gebruik: rhythm <slagen> <stappen> <verschuiving>\n  slagen       aantal slagen om te verdelen (≤ stappen)\n  stappen      totaal aantal stappen in het patroon\n  verschuiving rotatie-offset (0 ≤ verschuiving ≤ stappen)\n",
+    "invalidArgs":  "ongeldig aantal argumenten\n",
+    "invalidBeats": "ongeldige slagen\n",
+    "invalidSteps": "ongeldige stappen\n",
+    "invalidShift": "ongeldige verschuiving\n"
+  },
+  "en_GB": {
     "help":         "Usage: rhythm <beats> <steps> <shift>\n  beats  number of beats to distribute (≤ steps)\n  steps  total number of steps in the pattern\n  shift  rotation offset (0 ≤ shift ≤ steps)\n",
     "invalidArgs":  "invalid number of arguments\n",
     "invalidBeats": "invalid beats\n",
     "invalidSteps": "invalid steps\n",
     "invalidShift": "invalid shift\n"
   },
-  "zh_CN": {
-    "help":         "用法：rhythm <拍子> <步数> <偏移>\n  拍子  要分配的拍子数（≤ 步数）\n  步数  模式中的总步数\n  偏移  旋转偏移量（0 ≤ 偏移 ≤ 步数）\n",
-    "invalidArgs":  "参数数量无效\n",
-    "invalidBeats": "拍子无效\n",
-    "invalidSteps": "步数无效\n",
-    "invalidShift": "偏移无效\n"
+  "et_EE": {
+    "help":         "Kasutus: rhythm <löögid> <sammud> <nihue>\n  löögid  jaotatavate löökide arv (≤ sammud)\n  sammud  mustri sammude koguarv\n  nihue   pöördenihke (0 ≤ nihue ≤ sammud)\n",
+    "invalidArgs":  "vale arv argumente\n",
+    "invalidBeats": "kehtetud löögid\n",
+    "invalidSteps": "kehtetud sammud\n",
+    "invalidShift": "kehtetu nihue\n"
   },
-  "es_ES": {
-    "help":         "Uso: rhythm <pulsos> <pasos> <desplazamiento>\n  pulsos          número de pulsos a distribuir (≤ pasos)\n  pasos           número total de pasos en el patrón\n  desplazamiento  desplazamiento de rotación (0 ≤ desplazamiento ≤ pasos)\n",
-    "invalidArgs":  "número de argumentos inválido\n",
-    "invalidBeats": "pulsos inválidos\n",
-    "invalidSteps": "pasos inválidos\n",
-    "invalidShift": "desplazamiento inválido\n"
-  },
-  "ar_SA": {
-    "help":         "الاستخدام: rhythm <النبضات> <الخطوات> <الإزاحة>\n  النبضات  عدد النبضات للتوزيع (≤ الخطوات)\n  الخطوات  إجمالي عدد الخطوات في النمط\n  الإزاحة  إزاحة الدوران (0 ≤ الإزاحة ≤ الخطوات)\n",
-    "invalidArgs":  "عدد الوسائط غير صالح\n",
-    "invalidBeats": "النبضات غير صالحة\n",
-    "invalidSteps": "الخطوات غير صالحة\n",
-    "invalidShift": "الإزاحة غير صالحة\n"
-  },
-  "id_ID": {
-    "help":         "Penggunaan: rhythm <ketukan> <langkah> <pergeseran>\n  ketukan     jumlah ketukan yang didistribusikan (≤ langkah)\n  langkah     jumlah total langkah dalam pola\n  pergeseran  offset rotasi (0 ≤ pergeseran ≤ langkah)\n",
-    "invalidArgs":  "jumlah argumen tidak valid\n",
-    "invalidBeats": "ketukan tidak valid\n",
-    "invalidSteps": "langkah tidak valid\n",
-    "invalidShift": "pergeseran tidak valid\n"
-  },
-  "pt_BR": {
-    "help":         "Uso: rhythm <batidas> <passos> <deslocamento>\n  batidas      número de batidas a distribuir (≤ passos)\n  passos       número total de passos no padrão\n  deslocamento deslocamento de rotação (0 ≤ deslocamento ≤ passos)\n",
-    "invalidArgs":  "número de argumentos inválido\n",
-    "invalidBeats": "batidas inválidas\n",
-    "invalidSteps": "passos inválidos\n",
-    "invalidShift": "deslocamento inválido\n"
+  "fi_FI": {
+    "help":         "Käyttö: rhythm <iskut> <askeleet> <siirto>\n  iskut    jaettavien iskujen määrä (≤ askeleet)\n  askeleet askeleiden kokonaismäärä mallissa\n  siirto   kierron siirtymä (0 ≤ siirto ≤ askeleet)\n",
+    "invalidArgs":  "virheellinen argumenttien määrä\n",
+    "invalidBeats": "virheelliset iskut\n",
+    "invalidSteps": "virheelliset askeleet\n",
+    "invalidShift": "virheellinen siirto\n"
   },
   "fr_FR": {
     "help":         "Utilisation : rhythm <temps> <pas> <décalage>\n  temps    nombre de temps à distribuer (≤ pas)\n  pas      nombre total de pas dans le motif\n  décalage décalage de rotation (0 ≤ décalage ≤ pas)\n",
@@ -48,20 +62,6 @@
     "invalidSteps": "pas invalides\n",
     "invalidShift": "décalage invalide\n"
   },
-  "ja_JP": {
-    "help":         "使い方: rhythm <ビート> <ステップ> <シフト>\n  ビート   分配するビート数（≤ ステップ）\n  ステップ パターンの総ステップ数\n  シフト   回転オフセット（0 ≤ シフト ≤ ステップ）\n",
-    "invalidArgs":  "引数の数が無効です\n",
-    "invalidBeats": "ビートが無効です\n",
-    "invalidSteps": "ステップが無効です\n",
-    "invalidShift": "シフトが無効です\n"
-  },
-  "ru_RU": {
-    "help":         "Использование: rhythm <удары> <шаги> <сдвиг>\n  удары  количество ударов для распределения (≤ шаги)\n  шаги   общее количество шагов в паттерне\n  сдвиг  смещение вращения (0 ≤ сдвиг ≤ шаги)\n",
-    "invalidArgs":  "неверное количество аргументов\n",
-    "invalidBeats": "неверное количество ударов\n",
-    "invalidSteps": "неверное количество шагов\n",
-    "invalidShift": "неверный сдвиг\n"
-  },
   "de_DE": {
     "help":         "Verwendung: rhythm <Beats> <Schritte> <Verschiebung>\n  Beats        Anzahl der zu verteilenden Beats (≤ Schritte)\n  Schritte     Gesamtanzahl der Schritte im Muster\n  Verschiebung Rotationsversatz (0 ≤ Verschiebung ≤ Schritte)\n",
     "invalidArgs":  "ungültige Anzahl von Argumenten\n",
@@ -69,26 +69,26 @@
     "invalidSteps": "ungültige Schritte\n",
     "invalidShift": "ungültige Verschiebung\n"
   },
-  "tr_TR": {
-    "help":         "Kullanım: rhythm <vuruşlar> <adımlar> <kaydırma>\n  vuruşlar  dağıtılacak vuruş sayısı (≤ adımlar)\n  adımlar   örüntüdeki toplam adım sayısı\n  kaydırma  döndürme ofseti (0 ≤ kaydırma ≤ adımlar)\n",
-    "invalidArgs":  "geçersiz argüman sayısı\n",
-    "invalidBeats": "geçersiz vuruşlar\n",
-    "invalidSteps": "geçersiz adımlar\n",
-    "invalidShift": "geçersiz kaydırma\n"
+  "el_GR": {
+    "help":         "Χρήση: rhythm <χτύποι> <βήματα> <μετατόπιση>\n  χτύποι      αριθμός χτύπων για διανομή (≤ βήματα)\n  βήματα      συνολικός αριθμός βημάτων στο μοτίβο\n  μετατόπιση  μετατόπιση περιστροφής (0 ≤ μετατόπιση ≤ βήματα)\n",
+    "invalidArgs":  "μη έγκυρος αριθμός ορισμάτων\n",
+    "invalidBeats": "μη έγκυροι χτύποι\n",
+    "invalidSteps": "μη έγκυρα βήματα\n",
+    "invalidShift": "μη έγκυρη μετατόπιση\n"
   },
-  "ko_KR": {
-    "help":         "사용법: rhythm <박자> <단계> <이동>\n  박자  분배할 박자 수 (≤ 단계)\n  단계  패턴의 총 단계 수\n  이동  회전 오프셋 (0 ≤ 이동 ≤ 단계)\n",
-    "invalidArgs":  "잘못된 인수 개수\n",
-    "invalidBeats": "잘못된 박자\n",
-    "invalidSteps": "잘못된 단계\n",
-    "invalidShift": "잘못된 이동\n"
+  "hu_HU": {
+    "help":         "Használat: rhythm <ütések> <lépések> <eltolás>\n  ütések   elosztandó ütések száma (≤ lépések)\n  lépések  a minta összes lépéseinek száma\n  eltolás  forgatási eltolás (0 ≤ eltolás ≤ lépések)\n",
+    "invalidArgs":  "érvénytelen számú argumentum\n",
+    "invalidBeats": "érvénytelen ütések\n",
+    "invalidSteps": "érvénytelen lépések\n",
+    "invalidShift": "érvénytelen eltolás\n"
   },
-  "vi_VN": {
-    "help":         "Cách dùng: rhythm <nhịp> <bước> <dịch chuyển>\n  nhịp         số nhịp cần phân phối (≤ bước)\n  bước         tổng số bước trong mẫu\n  dịch chuyển  độ lệch xoay (0 ≤ dịch chuyển ≤ bước)\n",
-    "invalidArgs":  "số lượng đối số không hợp lệ\n",
-    "invalidBeats": "nhịp không hợp lệ\n",
-    "invalidSteps": "bước không hợp lệ\n",
-    "invalidShift": "dịch chuyển không hợp lệ\n"
+  "ga_IE": {
+    "help":         "Úsáid: rhythm <buillí> <céimeanna> <aistriú>\n  buillí    líon buillí le dáileadh (≤ céimeanna)\n  céimeanna líon iomlán céimeanna sa phatrún\n  aistriú   fritháireamh rothlaithe (0 ≤ aistriú ≤ céimeanna)\n",
+    "invalidArgs":  "líon neamhbhailí argóintí\n",
+    "invalidBeats": "buillí neamhbhailí\n",
+    "invalidSteps": "céimeanna neamhbhailí\n",
+    "invalidShift": "aistriú neamhbhailí\n"
   },
   "it_IT": {
     "help":         "Uso: rhythm <battiti> <passi> <scostamento>\n  battiti      numero di battiti da distribuire (≤ passi)\n  passi        numero totale di passi nel pattern\n  scostamento  offset di rotazione (0 ≤ scostamento ≤ passi)\n",
@@ -97,12 +97,26 @@
     "invalidSteps": "passi non validi\n",
     "invalidShift": "scostamento non valido\n"
   },
-  "fa_IR": {
-    "help":         "نحوه استفاده: rhythm <ضربان‌ها> <گام‌ها> <جابجایی>\n  ضربان‌ها  تعداد ضربان‌ها برای توزیع (≤ گام‌ها)\n  گام‌ها    تعداد کل گام‌ها در الگو\n  جابجایی  آفست چرخش (0 ≤ جابجایی ≤ گام‌ها)\n",
-    "invalidArgs":  "تعداد آرگومان‌ها نامعتبر است\n",
-    "invalidBeats": "ضربان‌ها نامعتبر هستند\n",
-    "invalidSteps": "گام‌ها نامعتبر هستند\n",
-    "invalidShift": "جابجایی نامعتبر است\n"
+  "lv_LV": {
+    "help":         "Lietošana: rhythm <sitieni> <soļi> <nobīde>\n  sitieni  sadalāmo sitienu skaits (≤ soļi)\n  soļi     kopējais soļu skaits rakstā\n  nobīde   rotācijas nobīde (0 ≤ nobīde ≤ soļi)\n",
+    "invalidArgs":  "nederīgs argumentu skaits\n",
+    "invalidBeats": "nederīgi sitieni\n",
+    "invalidSteps": "nederīgi soļi\n",
+    "invalidShift": "nederīga nobīde\n"
+  },
+  "lt_LT": {
+    "help":         "Naudojimas: rhythm <kirčiai> <žingsniai> <poslinkis>\n  kirčiai    paskirstomų kirčių skaičius (≤ žingsniai)\n  žingsniai  bendras žingsnių skaičius šablone\n  poslinkis  sukimosi poslinkis (0 ≤ poslinkis ≤ žingsniai)\n",
+    "invalidArgs":  "neteisingas argumentų skaičius\n",
+    "invalidBeats": "neteisingi kirčiai\n",
+    "invalidSteps": "neteisingi žingsniai\n",
+    "invalidShift": "neteisingas poslinkis\n"
+  },
+  "mt_MT": {
+    "help":         "Użu: rhythm <daqsiet> <passi> <pompa>\n  daqsiet  numru ta' daqsiet biex jitqassmu (≤ passi)\n  passi    numru totali ta' passi fil-mudell\n  pompa    offset ta' rotazzjoni (0 ≤ pompa ≤ passi)\n",
+    "invalidArgs":  "numru invalidu ta' argumenti\n",
+    "invalidBeats": "daqsiet invalidi\n",
+    "invalidSteps": "passi invalidi\n",
+    "invalidShift": "pompa invalida\n"
   },
   "pl_PL": {
     "help":         "Użycie: rhythm <uderzenia> <kroki> <przesunięcie>\n  uderzenia    liczba uderzeń do rozłożenia (≤ kroki)\n  kroki        łączna liczba kroków w wzorze\n  przesunięcie przesunięcie rotacji (0 ≤ przesunięcie ≤ kroki)\n",
@@ -110,5 +124,47 @@
     "invalidBeats": "nieprawidłowe uderzenia\n",
     "invalidSteps": "nieprawidłowe kroki\n",
     "invalidShift": "nieprawidłowe przesunięcie\n"
+  },
+  "pt_PT": {
+    "help":         "Uso: rhythm <batidas> <passos> <deslocamento>\n  batidas      número de batidas a distribuir (≤ passos)\n  passos       número total de passos no padrão\n  deslocamento deslocamento de rotação (0 ≤ deslocamento ≤ passos)\n",
+    "invalidArgs":  "número de argumentos inválido\n",
+    "invalidBeats": "batidas inválidas\n",
+    "invalidSteps": "passos inválidos\n",
+    "invalidShift": "deslocamento inválido\n"
+  },
+  "ro_RO": {
+    "help":         "Utilizare: rhythm <bătăi> <pași> <decalaj>\n  bătăi   numărul de bătăi de distribuit (≤ pași)\n  pași    numărul total de pași din tipar\n  decalaj decalaj de rotație (0 ≤ decalaj ≤ pași)\n",
+    "invalidArgs":  "număr invalid de argumente\n",
+    "invalidBeats": "bătăi invalide\n",
+    "invalidSteps": "pași invalizi\n",
+    "invalidShift": "decalaj invalid\n"
+  },
+  "sk_SK": {
+    "help":         "Použitie: rhythm <doby> <kroky> <posun>\n  doby   počet dôb na rozloženie (≤ kroky)\n  kroky  celkový počet krokov vo vzore\n  posun  posun rotácie (0 ≤ posun ≤ kroky)\n",
+    "invalidArgs":  "neplatný počet argumentov\n",
+    "invalidBeats": "neplatné doby\n",
+    "invalidSteps": "neplatné kroky\n",
+    "invalidShift": "neplatný posun\n"
+  },
+  "sl_SI": {
+    "help":         "Uporaba: rhythm <udarci> <koraki> <zamik>\n  udarci  število udarcev za porazdelitev (≤ koraki)\n  koraki  skupno število korakov v vzorcu\n  zamik   zamik vrtenja (0 ≤ zamik ≤ koraki)\n",
+    "invalidArgs":  "neveljavno število argumentov\n",
+    "invalidBeats": "neveljavni udarci\n",
+    "invalidSteps": "neveljavni koraki\n",
+    "invalidShift": "neveljaven zamik\n"
+  },
+  "es_ES": {
+    "help":         "Uso: rhythm <pulsos> <pasos> <desplazamiento>\n  pulsos          número de pulsos a distribuir (≤ pasos)\n  pasos           número total de pasos en el patrón\n  desplazamiento  desplazamiento de rotación (0 ≤ desplazamiento ≤ pasos)\n",
+    "invalidArgs":  "número de argumentos inválido\n",
+    "invalidBeats": "pulsos inválidos\n",
+    "invalidSteps": "pasos inválidos\n",
+    "invalidShift": "desplazamiento inválido\n"
+  },
+  "sv_SE": {
+    "help":         "Användning: rhythm <slag> <steg> <förskjutning>\n  slag         antal slag att fördela (≤ steg)\n  steg         totalt antal steg i mönstret\n  förskjutning rotationsförskjutning (0 ≤ förskjutning ≤ steg)\n",
+    "invalidArgs":  "ogiltigt antal argument\n",
+    "invalidBeats": "ogiltiga slag\n",
+    "invalidSteps": "ogiltiga steg\n",
+    "invalidShift": "ogiltig förskjutning\n"
   }
 }
