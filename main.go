@@ -30,23 +30,22 @@ func main() {
 		os.Exit(1)
 	}
 
-	chain := rhythm(beats, steps-beats)
+	chain := rhythmFast(beats, steps-beats)
 
 	os.Stdout.WriteString("[")
 
-	if chain != nil {
-		chain = chain.Move(shift)
-	} else {
+	if len(chain) == 0 {
 		os.Stdout.WriteString(" ")
-	}
-
-	chain.Do(func(value any) {
-		if value.(bool) {
-			os.Stdout.WriteString("x ")
-		} else {
-			os.Stdout.WriteString(". ")
+	} else {
+		n := len(chain)
+		for i := 0; i < n; i++ {
+			if chain[(i+shift)%n] {
+				os.Stdout.WriteString("x ")
+			} else {
+				os.Stdout.WriteString(". ")
+			}
 		}
-	})
+	}
 
 	os.Stdout.WriteString("\b]\n")
 
